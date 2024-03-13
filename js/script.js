@@ -85,7 +85,7 @@ const renderPokemonInfo = async (pokemon) => {
             <p><strong>Experiencia Base:</strong> ${data.base_experience}</p>
             <p><strong>Altura (m):</strong> ${data.height}</p>
             <p><strong>Peso:</strong> ${data.weight}</p>
-            <p><strong>Habilities usuais:</strong> ${abilities}</p>
+            <p><strong>Habilidades usuais:</strong> ${abilities}</p>
         `;
     } else {
         pokemonInfoContainer.innerHTML = '<p>Informações não encontradas.</p>';
